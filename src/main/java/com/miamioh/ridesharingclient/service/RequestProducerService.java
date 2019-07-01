@@ -105,10 +105,15 @@ public class RequestProducerService {
 		
 		try {
 			log.info("Sleeping before getting the response: "+Thread.currentThread().getId());
-			Thread.sleep(30000L); 
+			//Thread.sleep(90000L); 
+			Thread.sleep(300000L);
+			
+			
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+		watch.stop();
+		log.info("total time taken to get response :"+watch.getTotalTimeSeconds());
 		log.info("After Sleep "+Thread.currentThread().getId());
 		TaxiResponse taxiResponsesByRequestId = taxiResponseServiceProxy.getTaxiResponsesByRequestId(requestId);
 		log.info("Taxi Response: "+taxiResponsesByRequestId);
@@ -125,7 +130,7 @@ public class RequestProducerService {
 		while ( !confirmRideAck.isAckStatus() && retryCount > 0) {
 			try {
 				log.info("Sleeping before getting the response again: "+Thread.currentThread().getId());
-				Thread.sleep(30000L);
+				Thread.sleep(90000L);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}

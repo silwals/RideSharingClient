@@ -58,7 +58,6 @@ public class TaxiResponseWritter implements CommandLineRunner{
 					log.info("Response recieved from queue by writting thread: "+ Thread.currentThread().getId()+"Response: "+response);
 					gson.toJson(response, fileWriter);
 					fileWriter.flush();
-					log.info("TaxiResponseWritter: Or Is it reaching here?");
 				}
 			} catch (JsonIOException e) {
 				e.printStackTrace();
