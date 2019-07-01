@@ -1,0 +1,15 @@
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/service/RequestProducerService.java
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/config/KafkaProducerConfig.java
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/model/response/RideSharingConfirmationAck.java
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/feign/client/TaxiResponseServiceProxy.java
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/response/writter/RideSharingResponseWritter.java
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/model/response/TaxiResponse.java
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/feign/client/ConfirmRideProxy.java
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/model/response/Taxi.java
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/model/request/Event.java
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/model/request/RideSharingRequest.java
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/config/params/KafkaProducerConfigParams.java
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/kafka/producer/RideSharingRequestProducer.java
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/model/request/RideSharingConfirmation.java
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/RideSharingClientApplication.java
+/home/silwals/Documents/code/RideSharingClient/src/main/java/com/miamioh/ridesharingclient/response/writter/TaxiResponseWritter.java
